@@ -1,0 +1,3 @@
+vietocr
+torch
+opencv-python

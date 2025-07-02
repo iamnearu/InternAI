@@ -1,0 +1,57 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore editor configs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter/IPython
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore model weights or checkpoints
+*.ckpt
+*.pth
+*.pt
+*.bin
+
+# Ignore local settings or secrets
+.env
+*.key
+*.pem
+*.db
+
+# Ignore datasets
+/data/
+*.csv
+*.tsv
+*.json
+
+# Ignore frontend build (if any)
+frontend/node_modules/
+frontend/dist/
+build/
+dist/
+
+# Ignore Docker
+docker-compose.override.yml
+*.pid
+
+# Ignore LangChain or Qdrant cache
+qdrant_storage/
